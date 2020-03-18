@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hehaowei/CLionProjects/test/game/GameTester.cpp
+GameTester.h
+/home/hehaowei/CLionProjects/test/game/GameTester.h
+
+/home/hehaowei/CLionProjects/test/game/GameTester.h
+iostream
+-
+ctime
+-
+cstdlib
+-
+string.h
+-
+string
+-
+vector
+-
+
+/home/hehaowei/CLionProjects/test/main.cpp
+iostream
+-
+game/GameTester.h
+/home/hehaowei/CLionProjects/test/game/GameTester.h
+
